@@ -110,7 +110,7 @@ else:
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.postgresql_psycopg2',
-            'NAME': 'lovewinchDB',
+            'NAME': 'lovewinchdb',
             'USER': 'lovewinch_admin',
             'PASSWORD': 'lovewinch2020',
             'HOST': 'localhost',

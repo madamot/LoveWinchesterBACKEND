@@ -12,3 +12,16 @@ class Location(models.Model):
 
     def __str__(self):
         return self.name
+
+class Trails(models.Model):
+    name = models.CharField(max_length=50)
+    origin = models.ForeignKey(
+        Location, related_name="Origin", on_delete=models.CASCADE)
+    destination = models.ForeignKey(
+        Location, related_name="Destination", on_delete=models.CASCADE)
+    waypoints = models.ForeignKey(
+        Location, related_name="Waypoint", on_delete=models.CASCADE)
+    image = models.CharField(max_length=500)
+
+    def __str__(self):
+        return self.name

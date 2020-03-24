@@ -25,7 +25,7 @@ SECRET_KEY = 'xu!4o!s(l6&m1jl4bolybe^9!)jl9p86vtq03!mw2)lak0sx(_'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['134.122.105.209']
+ALLOWED_HOSTS = ['134.122.105.209', 'lovewinch.com', 'www.lovewinch.com', 'lovewinch.co.uk', 'www.lovewinch.co.uk']
 
 
 # Application definition
